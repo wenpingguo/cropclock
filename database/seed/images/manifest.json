@@ -251,6 +251,12 @@
    "author": "edibleoffice",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss-Chard-Seedlings_1641.JPG"
+  },
+  "seed": {
+   "file": "silverbeet-seed.jpg",
+   "author": "Downtowngal, derivative work Lämpel",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beet_seeds_crop.jpg"
   }
  },
  "peas": {
@@ -265,6 +271,12 @@
    "author": "Vinayaraj",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pea_seed_germinating.jpg"
+  },
+  "seed": {
+   "file": "peas-seed.jpg",
+   "author": "Jun Seita from Palo Alto, CA, U.S.",
+   "license": "CC BY 2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisum_sativum_seedling_(8755683513).jpg"
   }
  },
  "broccoli": {
@@ -641,6 +653,18 @@
    "author": "JS",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Snow_Pea_on_Plant.JPG"
+  },
+  "seed": {
+   "file": "snow-peas-seed.jpg",
+   "author": "Roger Culos",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisum_sativum_MHNT.BOT.2010.12.9.jpg"
+  },
+  "baby": {
+   "file": "snow-peas-baby.jpg",
+   "author": "Vinayaraj",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pea_seed_germinating.jpg"
   }
  },
  "sugar-snap-peas": {
@@ -655,6 +679,12 @@
    "author": "Salicyna",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisum_sativum_var._macrocarpum_Ilowiecki_2017-04-26_8701.jpg"
+  },
+  "seed": {
+   "file": "sugar-snap-peas-seed.jpg",
+   "author": "Roger Culos",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pisum_sativum_MHNT.BOT.2010.12.9.jpg"
   }
  },
  "rocket": {
@@ -669,6 +699,12 @@
    "author": "Dr. Jan Hinrichs-Berger, Landwirtschaftliches Technologiezentrum Augustenberg.",
    "license": "CC BY 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rucola_-_Pythium_-_Hinrichs-Berger,_Augustenberg.jpg"
+  },
+  "seed": {
+   "file": "rocket-seed.jpg",
+   "author": "Алексей Кабанов",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eruca_sativa_seeds.JPG"
   }
  },
  "bok-choy": {
@@ -737,6 +773,12 @@
    "author": "Yercaud-elango",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citrullus_lanatus_var._lanatus-3-xavier_cottage-yercaud-salem-India.JPG"
+  },
+  "seed": {
+   "file": "watermelon-seed.jpg",
+   "author": "Frank Vincentz",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citrullus_lanatus_ies.jpg"
   }
  },
  "celery": {
@@ -779,6 +821,18 @@
    "author": "Photo by David J. Stang",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_var._cantalupensis_Early_Frame_Prescott_0zz.jpg"
+  },
+  "seed": {
+   "file": "rockmelon-seed.jpg",
+   "author": "Zenon Sych",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_-_%D0%94%D0%B8%D0%BD%D1%8F_-_%D0%9D%D0%B0%D1%81%D1%96%D0%BD%D0%BD%D1%8F_-_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D1%81%D0%BE%D1%80%D1%82_%D0%9B%D0%B8%D0%BF%D0%BD%D0%B5%D0%B2%D0%B0.jpg"
+  },
+  "baby": {
+   "file": "rockmelon-baby.jpg",
+   "author": "Forest & Kim Starr",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_080501-4338_Cucumis_melo.jpg"
   }
  },
  "choy-sum": {
@@ -1009,6 +1063,12 @@
    "author": "David",
    "license": "Public domain",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Long_Bean.JPG"
+  },
+  "seed": {
+   "file": "snake-beans-seed.jpg",
+   "author": "Fumikas Sagisavas",
+   "license": "CC0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_cowpea.jpg"
   }
  },
  "amaranth": {
@@ -1059,6 +1119,12 @@
    "author": "thebittenword.com",
    "license": "CC BY 2.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turnip_2622027.jpg"
+  },
+  "baby": {
+   "file": "turnip-baby.jpg",
+   "author": "Ayotte, Gilles, 1948-",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brassica_rapa_15-p.bot-brassi.rapa-22.jpg"
   }
  },
  "parsnip": {
@@ -1073,6 +1139,12 @@
    "author": "Krzysztof Ziarnek, Kenraiz",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastinaca_sativa_kz07.jpg"
+  },
+  "seed": {
+   "file": "parsnip-seed.jpg",
+   "author": "Rasbak",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pastinaca_sativa_subsp._sativa_fruits,_pastinaak_vruchten.jpg"
   }
  },
  "mustard-greens": {
@@ -1327,6 +1399,18 @@
    "author": "Goldlocki",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RadicchioChioggiaBestand.jpg"
+  },
+  "seed": {
+   "file": "radicchio-seed.jpg",
+   "author": "Stefan.lefnaer",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cichorium_intybus_sl21.jpg"
+  },
+  "baby": {
+   "file": "radicchio-baby.jpg",
+   "author": "Salicyna",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cichorium_intybus_2018-09-15_0766.jpg"
   }
  },
  "celeriac": {
@@ -1389,6 +1473,12 @@
    "author": "Masparasol",
    "license": "CC BY 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watercress_(2).JPG"
+  },
+  "seed": {
+   "file": "watercress-seed.jpg",
+   "author": "Stefan.lefnaer",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasturtium_officinale_(s._str.)_sl44.jpg"
   }
  },
  "mint": {
@@ -1417,6 +1507,12 @@
    "author": "TwHerbGrower",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosemary_cuttings_in_pots_at_Selvans_Social_Farm,_Daxi,_Taoyuan.jpg"
+  },
+  "seed": {
+   "file": "rosemary-seed.jpg",
+   "author": "Philmarin",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alb.-R.officinalis-seeds-1.jpg"
   }
  },
  "oregano": {
@@ -1425,6 +1521,12 @@
    "author": "Ivar Leidus",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Origanum_vulgare_inflorescence_-_Keila.jpg"
+  },
+  "baby": {
+   "file": "oregano-baby.jpg",
+   "author": "Salicyna",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Origanum_vulgare_2018-11-09_4497.jpg"
   }
  },
  "lemongrass": {
@@ -1491,6 +1593,18 @@
    "author": "user:Risacher",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thai_basil_with_flowers.jpg"
+  },
+  "seed": {
+   "file": "thai-basil-seed.jpg",
+   "author": "Zenon Sych",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ocimum_basilicum_%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8C%D0%BA%D0%B8_%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B6%D0%BD%D1%96_-_%D0%BD%D0%B0%D1%81%D1%96%D0%BD%D0%BD%D1%8F.jpg"
+  },
+  "baby": {
+   "file": "thai-basil-baby.jpg",
+   "author": "Vikiçizer",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fesle%C4%9Fen_1.JPG"
   }
  },
  "curry-leaf": {
@@ -1573,6 +1687,12 @@
    "author": "sarang",
    "license": "Public domain",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Young_Perilla.jpg"
+  },
+  "seed": {
+   "file": "perilla-seed.jpg",
+   "author": "ally j",
+   "license": "CC0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Perilla_seeds.jpg"
   }
  },
  "marjoram": {
@@ -1601,6 +1721,12 @@
    "author": "Agnieszka Kwiecień, Nova",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Artemisia_dracunculus_Bylica_estragon_2021-04-27_01.jpg"
+  },
+  "baby": {
+   "file": "tarragon-baby.jpg",
+   "author": "Luwenn",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:L_Tarragon_Seedlings.jpg"
   }
  },
  "chervil": {
@@ -1821,6 +1947,18 @@
    "author": "Rhododendrites",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raspberry_with_fuzz_(40969).jpg"
+  },
+  "seed": {
+   "file": "raspberry-seed.jpg",
+   "author": "Alexander Klepnev",
+   "license": "CC BY 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B5%D0%BC%D1%8F_%D0%BC%D0%B0%D0%BB%D0%B8%D0%BD%D1%8B.jpg"
+  },
+  "baby": {
+   "file": "raspberry-baby.jpg",
+   "author": "Salicyna",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rubus_idaeus_2018-04-24_9362.jpg"
   }
  },
  "orange": {
@@ -1829,6 +1967,18 @@
    "author": "Ivar Leidus",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oranges_-_whole-halved-segment.jpg"
+  },
+  "seed": {
+   "file": "orange-seed.jpg",
+   "author": "User Lucis",
+   "license": "Public domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Orangeseeds.jpg"
+  },
+  "baby": {
+   "file": "orange-baby.jpg",
+   "author": "Tangopaso",
+   "license": "Public domain",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Citrus_sinensis_seedlings.jpg"
   }
  },
  "grape": {
@@ -1933,6 +2083,12 @@
    "author": "Jack Dykinga, USDA",
    "license": "Public domain",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Autumn_Red_peaches.jpg"
+  },
+  "seed": {
+   "file": "peach-seed.jpg",
+   "author": "An.ha",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prunus_persica_pit.jpg"
   }
  },
  "feijoa": {
@@ -2015,6 +2171,12 @@
    "author": "Unuplusunu",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Plum_-_fruit_x1.jpg"
+  },
+  "baby": {
+   "file": "plum-baby.jpg",
+   "author": "Salicyna",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prunus_domestica_subsp._oeconomica_2018-05-01_9957.jpg"
   }
  },
  "nectarine": {
@@ -2127,6 +2289,12 @@
    "author": "Anna Frodesiak",
    "license": "CC0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chinese_vegetable_036.jpg"
+  },
+  "baby": {
+   "file": "purple-choy-sum-baby.jpg",
+   "author": "Ayotte, Gilles, 1948-",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brassica_rapa_15-p.bot-brassi.rapa-20.jpg"
   }
  },
  "yacon": {
@@ -2151,6 +2319,18 @@
    "author": "サフィル",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirouri.JPG"
+  },
+  "seed": {
+   "file": "pickling-melon-seed.jpg",
+   "author": "Zenon Sych",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_-_%D0%94%D0%B8%D0%BD%D1%8F_-_%D0%9D%D0%B0%D1%81%D1%96%D0%BD%D0%BD%D1%8F_-_%D0%A1%D0%BE%D1%80%D1%82_%D0%B7_%D0%86%D0%B7%D1%80%D0%B0%D1%97%D0%BB%D1%8E.jpg"
+  },
+  "baby": {
+   "file": "pickling-melon-baby.jpg",
+   "author": "Krzysztof Ziarnek, Kenraiz",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cucumis_melo_%27Bosman%27_kz02.jpg"
   }
  },
  "velvet-bean": {
