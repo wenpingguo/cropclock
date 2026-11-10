@@ -1,0 +1,219 @@
+{
+  "id": "545b2d80-4a18-44e8-a4a0-dbff54952736",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.plants": {
+      "name": "plants",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "image_adult": {
+          "name": "image_adult",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image_seed": {
+          "name": "image_seed",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image_baby": {
+          "name": "image_baby",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sowing_months": {
+          "name": "sowing_months",
+          "type": "integer[]",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "harvest_weeks_min": {
+          "name": "harvest_weeks_min",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "harvest_weeks_max": {
+          "name": "harvest_weeks_max",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "soil_type": {
+          "name": "soil_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ph_min": {
+          "name": "ph_min",
+          "type": "numeric(3, 1)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ph_max": {
+          "name": "ph_max",
+          "type": "numeric(3, 1)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sunlight": {
+          "name": "sunlight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "watering": {
+          "name": "watering",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "spacing": {
+          "name": "spacing",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "companion_plants": {
+          "name": "companion_plants",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'"
+        },
+        "frost_tolerance": {
+          "name": "frost_tolerance",
+          "type": "frost_tolerance",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "popularity": {
+          "name": "popularity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "plants_sowing_months_idx": {
+          "name": "plants_sowing_months_idx",
+          "columns": [
+            {
+              "expression": "sowing_months",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        },
+        "plants_popularity_idx": {
+          "name": "plants_popularity_idx",
+          "columns": [
+            {
+              "expression": "popularity",
+              "isExpression": false,
+              "asc": false,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "plants_slug_unique": {
+          "name": "plants_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "slug"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "plants_sowing_months_valid": {
+          "name": "plants_sowing_months_valid",
+          "value": "cardinality(\"plants\".\"sowing_months\") > 0 AND \"plants\".\"sowing_months\" <@ ARRAY[1,2,3,4,5,6,7,8,9,10,11,12]"
+        },
+        "plants_harvest_weeks_valid": {
+          "name": "plants_harvest_weeks_valid",
+          "value": "\"plants\".\"harvest_weeks_min\" > 0 AND \"plants\".\"harvest_weeks_min\" <= \"plants\".\"harvest_weeks_max\""
+        },
+        "plants_ph_valid": {
+          "name": "plants_ph_valid",
+          "value": "\"plants\".\"ph_min\" >= 0 AND \"plants\".\"ph_max\" <= 14 AND \"plants\".\"ph_min\" <= \"plants\".\"ph_max\""
+        }
+      },
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {
+    "public.frost_tolerance": {
+      "name": "frost_tolerance",
+      "schema": "public",
+      "values": [
+        "none",
+        "light",
+        "hardy"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

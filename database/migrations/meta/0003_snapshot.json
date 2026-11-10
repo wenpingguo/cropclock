@@ -1,0 +1,332 @@
+{
+  "id": "4033fc48-29ea-4da1-8dc6-6d99b746167c",
+  "prevId": "4021e491-4b83-4feb-910a-7d6e6ff78c3f",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.images": {
+      "name": "images",
+      "schema": "",
+      "columns": {
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "content_type": {
+          "name": "content_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "data": {
+          "name": "data",
+          "type": "bytea",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "public.plants": {
+      "name": "plants",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "name_zh": {
+          "name": "name_zh",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "soil_type_zh": {
+          "name": "soil_type_zh",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "sunlight_zh": {
+          "name": "sunlight_zh",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "watering_zh": {
+          "name": "watering_zh",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "spacing_zh": {
+          "name": "spacing_zh",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "companion_plants_zh": {
+          "name": "companion_plants_zh",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image_adult": {
+          "name": "image_adult",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image_seed": {
+          "name": "image_seed",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image_baby": {
+          "name": "image_baby",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "image_credits": {
+          "name": "image_credits",
+          "type": "jsonb",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'::jsonb"
+        },
+        "sowing_months": {
+          "name": "sowing_months",
+          "type": "integer[]",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "harvest_weeks_min": {
+          "name": "harvest_weeks_min",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "harvest_weeks_max": {
+          "name": "harvest_weeks_max",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "soil_type": {
+          "name": "soil_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ph_min": {
+          "name": "ph_min",
+          "type": "numeric(3, 1)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "ph_max": {
+          "name": "ph_max",
+          "type": "numeric(3, 1)",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "sunlight": {
+          "name": "sunlight",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "watering": {
+          "name": "watering",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "spacing": {
+          "name": "spacing",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "companion_plants": {
+          "name": "companion_plants",
+          "type": "text[]",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'{}'"
+        },
+        "frost_tolerance": {
+          "name": "frost_tolerance",
+          "type": "frost_tolerance",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "life_cycle": {
+          "name": "life_cycle",
+          "type": "life_cycle",
+          "typeSchema": "public",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "'annual'"
+        },
+        "lifespan_years_min": {
+          "name": "lifespan_years_min",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "lifespan_years_max": {
+          "name": "lifespan_years_max",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false
+        },
+        "popularity": {
+          "name": "popularity",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 0
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp with time zone",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {
+        "plants_sowing_months_idx": {
+          "name": "plants_sowing_months_idx",
+          "columns": [
+            {
+              "expression": "sowing_months",
+              "isExpression": false,
+              "asc": true,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "gin",
+          "with": {}
+        },
+        "plants_popularity_idx": {
+          "name": "plants_popularity_idx",
+          "columns": [
+            {
+              "expression": "popularity",
+              "isExpression": false,
+              "asc": false,
+              "nulls": "last"
+            }
+          ],
+          "isUnique": false,
+          "concurrently": false,
+          "method": "btree",
+          "with": {}
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "plants_slug_unique": {
+          "name": "plants_slug_unique",
+          "nullsNotDistinct": false,
+          "columns": [
+            "slug"
+          ]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {
+        "plants_sowing_months_valid": {
+          "name": "plants_sowing_months_valid",
+          "value": "cardinality(\"plants\".\"sowing_months\") > 0 AND \"plants\".\"sowing_months\" <@ ARRAY[1,2,3,4,5,6,7,8,9,10,11,12]"
+        },
+        "plants_harvest_weeks_valid": {
+          "name": "plants_harvest_weeks_valid",
+          "value": "\"plants\".\"harvest_weeks_min\" > 0 AND \"plants\".\"harvest_weeks_min\" <= \"plants\".\"harvest_weeks_max\""
+        },
+        "plants_lifespan_valid": {
+          "name": "plants_lifespan_valid",
+          "value": "(\"plants\".\"lifespan_years_min\" IS NULL AND \"plants\".\"lifespan_years_max\" IS NULL) OR (\"plants\".\"life_cycle\" = 'perennial' AND \"plants\".\"lifespan_years_min\" >= 1 AND \"plants\".\"lifespan_years_min\" <= \"plants\".\"lifespan_years_max\")"
+        },
+        "plants_ph_valid": {
+          "name": "plants_ph_valid",
+          "value": "\"plants\".\"ph_min\" >= 0 AND \"plants\".\"ph_max\" <= 14 AND \"plants\".\"ph_min\" <= \"plants\".\"ph_max\""
+        }
+      },
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {
+    "public.frost_tolerance": {
+      "name": "frost_tolerance",
+      "schema": "public",
+      "values": [
+        "none",
+        "light",
+        "hardy"
+      ]
+    },
+    "public.life_cycle": {
+      "name": "life_cycle",
+      "schema": "public",
+      "values": [
+        "annual",
+        "perennial"
+      ]
+    }
+  },
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}
