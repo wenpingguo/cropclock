@@ -371,6 +371,12 @@
    "author": "Ivar Leidus",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garlic_bulbs_and_cloves.jpg"
+  },
+  "baby": {
+   "file": "garlic-baby.jpg",
+   "author": "Judgefloro",
+   "license": "CC0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:2499Garlic_sprouts_06.jpg"
   }
  },
  "beetroot": {
@@ -867,6 +873,12 @@
    "author": "Forest & Kim Starr",
    "license": "CC BY 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_081031-0424_Brassica_oleracea.jpg"
+  },
+  "baby": {
+   "file": "gai-lan-baby.jpg",
+   "author": "Forest & Kim Starr",
+   "license": "CC BY 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Starr_081031-0424_Brassica_oleracea.jpg"
   }
  },
  "asparagus": {
@@ -1159,6 +1171,12 @@
    "author": "Goldlocki",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:RoterSenfRedGiantKeimlinge.jpg"
+  },
+  "seed": {
+   "file": "mustard-greens-seed.jpg",
+   "author": "Dsaikia2015",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brown_Mustard_Seed_(Close).jpg"
   }
  },
  "edamame": {
@@ -1493,6 +1511,12 @@
    "author": "Anzoon",
    "license": "CC BY-SA 3.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%B9%E3%83%9A%E3%82%A2%E3%83%9F%E3%83%B3%E3%83%8801.jpg"
+  },
+  "seed": {
+   "file": "mint-seed.jpg",
+   "author": "Алексей Кабанов",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mentha_piperita_seeds.JPG"
   }
  },
  "rosemary": {
@@ -1535,6 +1559,12 @@
    "author": "Rafael Ghidini",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cymbopogon_citratus_(Brazil).jpg"
+  },
+  "baby": {
+   "file": "lemongrass-baby.jpg",
+   "author": "Frank Vincentz",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kluse_-_Cymbopogon_citratus_-_Zitronengras_01_ies.jpg"
   }
  },
  "dill": {
@@ -1563,6 +1593,12 @@
    "author": "Swallowtail Garden Seeds from Santa Rosa, California, United States",
    "license": "CC BY 2.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deep_Purple_Lavender_-_Flickr_-_Swallowtail_Garden_Seeds.jpg"
+  },
+  "seed": {
+   "file": "lavender-seed.jpg",
+   "author": "Roger Culos",
+   "license": "CC BY-SA 3.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lavandula_dentata_MHNT.BOT.2018.28.24.jpg"
   }
  },
  "sage": {
@@ -1585,6 +1621,12 @@
    "author": "Joditran",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_mint.jpg"
+  },
+  "baby": {
+   "file": "vietnamese-mint-baby.jpg",
+   "author": "SarKaLay စာကလေး",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Persicaria_odorata.jpg"
   }
  },
  "thai-basil": {
@@ -1761,6 +1803,12 @@
    "author": "Ayotte, Gilles, 1948-",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumex_acetosella_15-p.bot-rumex.acetos-17.jpg"
+  },
+  "seed": {
+   "file": "sorrel-seed.jpg",
+   "author": "Stefan.lefnaer",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumex_acetosa_(subsp._acetosa)_sl41.jpg"
   }
  },
  "sunflower": {
@@ -2359,6 +2407,12 @@
    "author": "Joi Ito",
    "license": "CC BY 2.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Satoimo.jpg"
+  },
+  "baby": {
+   "file": "taro-baby.jpg",
+   "author": "Johnnybam",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Young_Cocoyam_Plants_(Colocasia_esculenta).jpg"
   }
  },
  "bay-tree": {
@@ -2381,6 +2435,18 @@
    "author": "Bff",
    "license": "CC BY-SA 4.0",
    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hylocereus_undatus-fruit20180201_118(07,24,36).jpg"
+  },
+  "seed": {
+   "file": "dragon-fruit-seed.jpg",
+   "author": "Zenyrgarden",
+   "license": "CC BY-SA 4.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_dragon_fruit_seeds.jpg"
+  },
+  "baby": {
+   "file": "dragon-fruit-baby.jpg",
+   "author": "Grahame Bowland",
+   "license": "CC BY-SA 2.0",
+   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pitaya_(seedling).jpg"
   }
  },
  "fig": {
