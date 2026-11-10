@@ -61,7 +61,8 @@ async function PlantDetail({ params }: Pick<PageProps<"/[lang]/plants/[slug]">, 
   ];
 
   return (
-    <article className="mt-6 grid gap-8 lg:grid-cols-2">
+    // grid-cols-1 caps the column at the screen width, so wide content scrolls instead of stretching the page.
+    <article className="mt-6 grid grid-cols-1 gap-8 lg:grid-cols-2">
       <ViewTracker slug={plant.slug} />
       <PlantGallery name={plant.name} images={images} photoLabel={`${t.photoBy}${t.colon}`} />
       <div>

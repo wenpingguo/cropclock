@@ -9,6 +9,8 @@ const en = {
     "July", "August", "September", "October", "November", "December",
   ],
   shortMonths: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+  /** Column headings for the growth timeline on phones, where short names don't fit. */
+  monthInitials: ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"],
   chooseMonth: "Choose a month",
   previousMonth: (month: string) => `Previous month, ${month}`,
   nextMonth: (month: string) => `Next month, ${month}`,
@@ -93,6 +95,7 @@ const zh: Dictionary = {
     "七月", "八月", "九月", "十月", "十一月", "十二月",
   ],
   shortMonths: ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+  monthInitials: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
   chooseMonth: "选择月份",
   previousMonth: (month) => `上个月：${month}`,
   nextMonth: (month) => `下个月：${month}`,

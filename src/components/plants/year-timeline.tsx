@@ -5,14 +5,21 @@ export function YearTimeline({ sowing, harvest, t }: { sowing: number[]; harvest
 
   return (
     <div>
+      {/* Fits a 320px phone; on anything narrower the table scrolls inside this box. */}
       <div className="overflow-x-auto">
-        <table className="w-full min-w-[32rem] table-fixed border-separate border-spacing-1 text-center text-xs">
+        <table className="w-full min-w-[17rem] table-fixed border-separate border-spacing-0.5 text-center text-xs sm:border-spacing-1">
           <thead>
             <tr>
-              <th className="w-16" aria-label={t.activity} />
-              {t.shortMonths.map((name) => (
+              <th className="w-12 sm:w-16" aria-label={t.activity} />
+              {t.shortMonths.map((name, i) => (
                 <th key={name} scope="col" className="font-medium text-muted">
-                  {name}
+                  <span aria-hidden="true" className="sm:hidden">
+                    {t.monthInitials[i]}
+                  </span>
+                  <span aria-hidden="true" className="hidden sm:inline">
+                    {name}
+                  </span>
+                  <span className="sr-only">{t.months[i]}</span>
                 </th>
               ))}
             </tr>
